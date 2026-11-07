@@ -10,14 +10,43 @@
     margin: 0 auto;
     text-align: center;
   }
-  .nav-cont1{
+  .nav-container{
       display: flex;
+      justify-content: space-between;
       width: 942px;
       text-align: center;
-      justify-content: left;
+      font-weight: bold;
   }
-  
-  .navigation {
+  .nav-cont1{
+      display: flex;
+  }
+　.nav-cont2{
+      display: flex;
+  }
+  .nav-search{
+    flex:1;
+    text-align: left;
+    
+  }
+  .searchbox{
+    display:flex;
+    border-radius: 5px;
+    margin: 6px 20px 0;
+    background-color: #4588e5;
+    color: #d0e1f8;
+    padding: 10px;
+    font-size: 13.5px;
+    text-decoration: none; 
+    font-weight: normal;
+  }
+  .searchbox img{
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 2 10 0 5;
+    
+  }
+  nav {
     background-color: #4d97ff;
     width: auto;
     height: 50px;
@@ -29,7 +58,6 @@
     text-align: center;
     display: flex;
     color: white;
-    font-weight: bold;
     align-items: center
   }
   .nav-logo{

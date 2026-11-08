@@ -33,18 +33,33 @@
     border-radius: 5px;
     margin: 6px 20px 0;
     background-color: #4588e5;
-    color: #d0e1f8;
-    padding: 10px;
+    padding: 8px;
     font-size: 13.5px;
     text-decoration: none; 
     font-weight: normal;
+    transition: background-color 0.1s ease;
+  }
+  .searchbox:has(.searchtext:focus){
+    background-color: #3e79cc;
   }
   .searchbox img{
     display: block;
     width: 15px;
     height: 15px;
-    margin: 2 10 0 5;
-    
+    margin: 5 10 0 5;    
+  }
+  .searchtext{
+      background-color: #4588e5;
+      border: none;
+      color: white;
+      outline: none;
+      transition: background-color 0.1s ease;
+    }
+  ::placeholder {
+    color:#d0e1f8;
+  }
+  .searchtext:focus{
+    background-color: #3e79cc;
   }
   nav {
     background-color: #4d97ff;
@@ -90,4 +105,6 @@
   }
   .nav-but:hover {
   background-color: #4588e5;
+  text-decoration:none;
+  color: white;
   }

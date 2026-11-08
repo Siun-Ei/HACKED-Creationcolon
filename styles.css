@@ -33,7 +33,7 @@
     border-radius: 5px;
     margin: 6px 20px 0;
     background-color: #4588e5;
-    padding: 8px;
+    padding: 0px;
     font-size: 13.5px;
     text-decoration: none; 
     font-weight: normal;
@@ -46,10 +46,13 @@
     display: block;
     width: 15px;
     height: 15px;
-    margin: 5 10 0 5;    
+    margin: 12 10;
   }
   .searchtext{
+      border-radius: 0px 5px 5px 0px;
       background-color: #4588e5;
+      padding: 0px;
+      flex: 1;
       border: none;
       color: white;
       outline: none;

@@ -7,9 +7,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-
-</style>
 
 <body>
   <nav>
@@ -36,15 +33,30 @@
         <a href="/" class="nav-but">サインイン</a>
       </div>
     </div>
-
   </nav>
 
-  
   <div class="main">
-    <p>AYS合作</p>
+      <div class="adcont" id="adcont">
+        <div style="display: flex; align-items: center;">
+          <img src="./imgi_1_try-it-icon.svg">
+          <p>Support the internet’s ad-free digital playground and help keep the nonprofit Scratch free for every kid, everywhere.</p>
+          <a href="/"> 寄付</a>
+        </div>
+        <span style="display: flex; align-items: center;">
+          <button class="close-btn">
+            <img src="./imgi_2_close-x.svg" style="pointer-events: none;">
+          </button>
+        </span>
+      </div>
 
+    <header>
+      <div class="maincont">
+    <p>AYS合作</p>
     <img src="./logo_bitmap.png">
     <p>のサイトです。</p>
+    </header>
+    </div>
+    <div class="maincont">
     <p>scroll</p>
     <p>scroll</p>
     <p>scroll</p>
@@ -71,4 +83,11 @@
     <p>scroll</p>
   </div>
 </body>
+<script>
+  document.querySelectorAll('.close-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      btn.closest('.adcont').style.display = 'none';
+    });
+  });
+</script>
 </html>

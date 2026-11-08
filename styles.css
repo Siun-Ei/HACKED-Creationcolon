@@ -4,12 +4,6 @@
   body{
     margin: 0;
   }
-  .main {
-    background-color: #4d97ff;
-    width: 942px;
-    margin: 0 auto;
-    text-align: center;
-  }
   .nav-container{
       display: flex;
       justify-content: space-between;
@@ -110,4 +104,60 @@
   background-color: #4588e5;
   text-decoration:none;
   color: white;
+  }
+  .main {
+    background-color: #fcfcfc;
+  }
+
+  .maincont{
+    width: 942px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  header{
+    background-color: #4d97ff;
+  }
+
+
+  .adcont{
+    background-color: #24603C;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px 18px 12%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .adcont p{
+    color: white;
+    font-weight: bold;
+  }
+
+  .adcont a{
+    color:#328554;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 30px;
+    padding: 6px 28px;
+    text-decoration: none;
+  }
+
+  .adcont img{
+    width: 30px;
+    margin: 0 10 0 0; 
+  }
+  .close-btn{
+    background-color: #205636;
+      border: none;
+      padding: 8px;
+      border-radius: 20px;
+  }
+  .close-btn:focus{
+          outline: none;
+  }
+  .close-btn img{
+    width: 16px;
+      margin: 0 auto;
   }

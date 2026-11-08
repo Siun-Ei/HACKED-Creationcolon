@@ -120,7 +120,7 @@
   }
 
 
-  .adcont{
+  .banner{
     background-color: #24603C;
     display: flex;
     justify-content: space-between;
@@ -129,12 +129,12 @@
     margin: 0 auto;
   }
 
-  .adcont p{
+  .banner p{
     color: white;
     font-weight: bold;
   }
 
-  .adcont a{
+  .banner a{
     color:#328554;
     font-weight: bold;
     border-radius: 50px;
@@ -144,7 +144,7 @@
     text-decoration: none;
   }
 
-  .adcont img{
+  .banner img{
     width: 30px;
     margin: 0 10 0 0; 
   }

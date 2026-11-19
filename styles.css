@@ -70,7 +70,8 @@
     text-align: center;
     display: flex;
     color: white;
-    align-items: center
+    align-items: center;
+    z-index: 1;
   }
   .nav-logo{
   display: inline-block;
@@ -98,6 +99,7 @@
   background-color: #4d97ff;
   color: white;
   font-size: 13.5px;
+  white-space: nowrap;
   text-decoration: none;
   }
   .nav-but:hover {
@@ -119,14 +121,19 @@
     background-color: #4d97ff;
   }
 
+  .banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .banner{
+    position: relative;
     background-color: #24603C;
+    padding: 16px 20px 18px 0;
     display: flex;
-    justify-content: space-between;
-    padding: 16px 20px 18px 12%;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: center;
+    z-index: 0;
   }
 
   .banner p{
@@ -139,9 +146,11 @@
     font-weight: bold;
     border-radius: 50px;
     background-color: white;
-    margin: 0 30px;
+    margin: 0 100px 0 30px;
     padding: 6px 28px;
     text-decoration: none;
+white-space: nowrap;
+
   }
 
   .banner img{
@@ -153,12 +162,14 @@
       border: none;
       padding: 8px;
       border-radius: 20px;
+      position: absolute;
+      right: 20;
   }
   .close-btn:focus{
-          outline: none;
+    outline: none;
   }
   .close-btn img{
     width: 16px;
-      margin: 0 auto;
+    margin: 0 auto;
   }
   
